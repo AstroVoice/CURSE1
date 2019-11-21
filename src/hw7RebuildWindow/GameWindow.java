@@ -10,5 +10,9 @@ public class GameWindow extends JFrame {
     GameWindow() {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+        setTitle("Крестики нолики");
+
+        JButton keyStart = new JButton("Начать игру");
+        JButton keyOver = new JButton("Выйти");
     }
 }
