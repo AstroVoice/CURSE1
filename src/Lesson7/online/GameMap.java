@@ -16,11 +16,11 @@ import java.awt.*;
 public class GameMap extends JPanel {
     public static final int GM_HVH = 0;
     public static final int GM_HVA = 1;
-    GameMap() {
+    public GameMap() {
         setBackground(Color.BLACK);
     }
 
-    void startNewGame(int mode, int fieldSizeX, int fieldSizeY, int winLength) {
+    public void startNewGame(int mode, int fieldSizeX, int fieldSizeY, int winLength) {
         System.out.printf("mode=%d, fieldSize=%d, winLen=%d\n", mode, fieldSizeX, winLength);
     }
 }
