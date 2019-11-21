@@ -1,4 +1,5 @@
-package ru.geekbrains.javaone.lesson_g.online;
+package Lesson7.online;
+
 
 import javax.swing.*;
 import java.awt.*;

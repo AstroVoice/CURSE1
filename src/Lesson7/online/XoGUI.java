@@ -1,4 +1,4 @@
-package ru.geekbrains.javaone.lesson_g.online;
+package Lesson7.online;
 
 public class XoGUI {
     public static void main(String[] args) {
