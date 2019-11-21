@@ -1,4 +1,4 @@
-package Lesson7.online;
+package hw7RebuildWindow;
 
 public class Lesson7 {
 }
