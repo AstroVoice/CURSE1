@@ -21,7 +21,7 @@ public class Settings extends JFrame {
     private static final int MAX_FIELD_SIZE = 10;
     private static final int MIN_WIN_LENGTH = 3;
 
-    Settings(GameWindow gameWindow) {
+    public Settings(GameWindow gameWindow) {
         this.gameWindow = gameWindow;
         setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
         Rectangle gameWindowBounds = gameWindow.getBounds();
